@@ -28,6 +28,10 @@ public class Student {
     }
 
     /*
+        Overriding equals(), hashCode() and toString() methods
+    */
+
+    /*
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -50,5 +54,13 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(getName(), getAge());
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

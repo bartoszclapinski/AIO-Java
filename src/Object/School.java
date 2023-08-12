@@ -13,5 +13,8 @@ public class School {
         System.out.println(student2.hashCode());
         System.out.println(student3.hashCode());
 
+        System.out.println(student1);
+        System.out.println(student2);
+        System.out.println(student3);
     }
 }
