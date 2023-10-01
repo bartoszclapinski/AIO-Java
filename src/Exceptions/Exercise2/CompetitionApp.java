@@ -5,5 +5,6 @@ public class CompetitionApp {
         CompetitionController competitionController = new CompetitionController();
         competitionController.run();
         competitionController.close();
+
     }
 }
