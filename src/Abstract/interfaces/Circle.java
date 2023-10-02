@@ -1,6 +1,6 @@
 package Abstract.interfaces;
 
-public class Circle {
+public class Circle implements Shape {
     private double radius;
 
     public Circle(double radius) {
@@ -8,7 +8,7 @@ public class Circle {
     }
 
     public double getArea() {
-        return Math.PI * radius * radius;
+        return Shape.PI * radius * radius;
     }
 
     public double getRadius() {
@@ -20,10 +20,10 @@ public class Circle {
     }
 
     public double calculateArea() {
-        return Math.PI * radius * radius;
+        return Shape.PI * radius * radius;
     }
 
     public double calculatePerimeter() {
-        return 2 * Math.PI * radius;
+        return 2 * Shape.PI * radius;
     }
 }

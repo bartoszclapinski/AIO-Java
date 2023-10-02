@@ -1,6 +1,6 @@
 package Abstract.interfaces;
 
-public class Rectangle {
+public class Rectangle implements Shape {
     private int width;
     private int height;
 
@@ -27,7 +27,7 @@ public class Rectangle {
         this.height = height;
     }
 
-    public int calculateArea() {
+    public double calculateArea() {
         return width * height;
     }
 
