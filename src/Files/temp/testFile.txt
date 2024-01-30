@@ -1,0 +1,6 @@
+line
+line 2
+sometext
+lorem ipsum
+Line from buffered writer
+Another line from buffered writer
