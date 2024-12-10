@@ -25,6 +25,7 @@ public class ProductApp {
                     products.put(product.getCategory(), productsSet);
                 }
             }
+            fileScanner.close();
         } catch (Exception e) {
             System.out.println("File not found.");
         }
@@ -60,5 +61,4 @@ public class ProductApp {
 
         scanner.close();
     }
-
 }
