@@ -1,8 +1,5 @@
 package Collections.Queues.Exercise;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
-
 public class ToDoService {
     public static void main(String[] args) {
         TaskManager taskManager = new TaskManager();
