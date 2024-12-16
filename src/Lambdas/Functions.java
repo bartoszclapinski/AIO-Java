@@ -1,7 +1,10 @@
 package Lambdas;
 
+import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class Functions {
     public static void main(String[] args) {
@@ -31,6 +34,27 @@ public class Functions {
             System.out.println(str);
         };
         consumer.accept(original);
+
+        int personAge = 25;
+        Predicate<Integer> predicate = age -> age >= 18;
+        boolean isAdult = predicate.test(personAge);
+        System.out.println(isAdult);
+
+        String[] firstNames = {"John", "Jane", "Jim", "Jill"};
+        String[] lastNames = {"Doe", "Smith", "Jones", "Williams"};
+        int[] ages = {25, 30, 35, 40};
+        Random random = new Random();
+
+        Supplier<Person> suplier = () -> {
+            String firstName = firstNames[random.nextInt(firstNames.length)];
+            String lastName = lastNames[random.nextInt(lastNames.length)];
+            int age = ages[random.nextInt(ages.length)];
+            return new Person(firstName, lastName, age);
+        };
+
+        for (int i = 0; i < 10; i++) {            
+            System.out.println(suplier.get());
+        }
 
     }
 
