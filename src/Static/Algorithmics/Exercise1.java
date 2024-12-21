@@ -16,5 +16,6 @@ public class Exercise1 {
 
         if (sum % 2 == 0) System.out.println("Sum is even." + sum);
         else System.out.println("Sum is odd." + sum);
+        scanner.close();
     }
 }

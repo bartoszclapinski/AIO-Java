@@ -8,5 +8,6 @@ public class Exercise2 {
         System.out.println("Press key to roll dice.");
         scanner.nextLine();
         System.out.println(Dice.roll());
+        scanner.close();
     }
 }

@@ -29,6 +29,7 @@ public class Car {
         if (!hasFuel) status += "Out of fuel. ";
         if (!isFuelCapClosed) status += "Fuel cap is open. ";
         if (!areDoorsAndTrunkClosed) status += "Doors or trunk are open. ";
+        if (isEngineRunning) status += "Engine is running. ";
         return status.trim();
     }
 

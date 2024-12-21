@@ -48,8 +48,10 @@ public class ClientExplorer {
 
     private static String readCountryFromUser(Client[] clients) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter country: ");
-        return scanner.nextLine();
+        System.out.println("Enter country: ");  
+        String country = scanner.nextLine();
+        scanner.close();
+        return country;
     }
 
     private static void printMostValuableClient(Client[] clients) {

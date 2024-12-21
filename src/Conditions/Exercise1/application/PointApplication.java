@@ -1,9 +1,6 @@
 package Conditions.Exercise1.application;
-
 import Conditions.Exercise1.model.Point;
 import Conditions.Exercise1.controller.PointController;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class PointApplication {
@@ -32,5 +29,7 @@ public class PointApplication {
             case 4 -> pointController.minusX(point);
             case 5 -> pointController.minusY(point);
         }
+
+        scanner.close();
     }
 }

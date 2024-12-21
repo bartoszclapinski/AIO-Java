@@ -22,6 +22,7 @@ public class TemperatureControl {
 
             System.out.println("Actual temperature: " + actual);
         }
+        sc.close();
 
     }
 }

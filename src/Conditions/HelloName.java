@@ -7,6 +7,8 @@ public class HelloName {
         String name3 = "Adam";
         String name4 = "Eve";
 
+        System.out.println("Enabled names: " + name1 + ", " + name2 + ", " + name3 + ", " + name4);
+
         String name = name4;
 
         switch (name) {

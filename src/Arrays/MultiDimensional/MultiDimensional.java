@@ -1,5 +1,7 @@
 package Arrays.MultiDimensional;
 
+import java.util.Arrays;
+
 public class MultiDimensional {
     public static void main(String[] args) {
         int[][] arr1 = new int[3][3];
@@ -13,6 +15,7 @@ public class MultiDimensional {
         arr2[2] = new int[1];
 
         int[][] arr3 = {{1, 2, 3}, {4, 5}, {6}};
+        System.out.println(Arrays.deepToString(arr3));
 
         String[] firstNames = {"John", "Mike", "Anna"};
         String[] lastNames = {"Smith", "Brown", "Lee"};
@@ -23,6 +26,7 @@ public class MultiDimensional {
         System.out.println(fullNames[0][2] + " " + fullNames[1][2]);
 
         int[][][] cube = new int[3][3][3];
+        System.out.println(Arrays.deepToString(cube));
     }
 
 }

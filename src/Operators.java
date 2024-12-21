@@ -65,6 +65,7 @@ public class Operators {
         double j = 5.8;
         //  Implicit conversion
         double k = i;
+        System.out.println(k);
         // int l = j;  //  Error
         //  Explicit conversion
         int l = (int) j;

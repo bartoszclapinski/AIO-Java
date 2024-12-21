@@ -20,6 +20,9 @@ public class StringsTest {
         String s5 = "Hello";
         String s6 = s5 + " World";
 
+        System.out.println(s5);
+        System.out.println(s6);
+
         long start1 = System.nanoTime();
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < 1000; i++) {
@@ -28,6 +31,7 @@ public class StringsTest {
         }
         String numbers = sb.toString();
         long end1 = System.nanoTime() - start1;
+        System.out.println(numbers);
 
 
         long start2 = System.nanoTime();
@@ -35,6 +39,7 @@ public class StringsTest {
         for (int i = 0; i < 1000; i++) {
             numbers2 += i + " ";
         }
+        System.out.println(numbers2);
         long end2 = System.nanoTime() - start2;
 
         System.out.println("Time 1: " + end1);

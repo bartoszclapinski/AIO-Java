@@ -3,6 +3,7 @@ package Methods;
 public class ComputerStore {
     public static void main(String[] args) {
         ComputerFactory factory = new ComputerFactory();
+        
 
         Computer computer1 = new Computer("Intel Core i5", 8_192);
 //        Computer computer1 = factory.create("Intel Core i5", 8_192);
@@ -14,8 +15,12 @@ public class ComputerStore {
 //        computer2.processor = "AMD Ryzen 1700";
 //        computer2.memory = 16_384;
 
+        Computer computer3 = factory.create("Intel Core i5", 8_192);  
+
+
         System.out.println(computer1.processor + " " + computer1.memory);
         System.out.println(computer2.processor + " " + computer2.memory);
+        System.out.println(computer3.processor + " " + computer3.memory);
 
         computer1.printInfo();
         computer2.printInfo();

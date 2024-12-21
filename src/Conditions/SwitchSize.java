@@ -33,5 +33,7 @@ public class SwitchSize {
                 yield "Unknown size";
         };
         System.out.println(result2);
+
+        scanner.close();
     }
 }

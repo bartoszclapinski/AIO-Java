@@ -1,7 +1,5 @@
 package Files.Exercise1;
 
-import java.io.Serializable;
-
 public class Employee extends Person {
     private double salary;
 

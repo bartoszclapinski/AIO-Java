@@ -14,6 +14,8 @@ public class PrintNumbers {
             System.out.println("Insert second number: ");
             int second = sc.nextInt();
             printNumbers(first, second);
+            printNumbers(first);
+            printNumbers(second);
             System.out.println("Insert " + EXIT + " to exit or any other number to continue: ");
         } while (sc.nextInt() != EXIT);
 

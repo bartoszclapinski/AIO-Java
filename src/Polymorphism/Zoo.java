@@ -54,6 +54,7 @@ public class Zoo {
         } else {
             System.out.println("Wrong choice!");
         }
+        sc.close();
     }
 
     private static void changeAnimalName(Animal animal, String newName) {

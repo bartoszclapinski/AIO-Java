@@ -28,5 +28,7 @@ public class Exercise2 {
         System.out.println("Number of letters: " + countLetters);
         System.out.println("Highest digit: " + highestDigit);
 
+        sc.close();
+
     }
 }

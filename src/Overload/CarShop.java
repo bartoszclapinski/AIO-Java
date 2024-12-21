@@ -8,5 +8,6 @@ public class CarShop {
         Car car2 = new Car(2018, "BMW", "i8");
 
         car1.printInfo();
+        car2.printInfo();
     }
 }

@@ -24,5 +24,7 @@ public class InOut {
         String lastName2 = sc.nextLine();
 
         System.out.println("Your name is " + firstName2 + " " + lastName2 + " and you are " + age2 + " years old.");
+
+        sc.close();
     }
 }

@@ -27,6 +27,7 @@ class EvenAdder {
                 i--;
             }
         }
+        scanner.close();
         return result;
     }
 

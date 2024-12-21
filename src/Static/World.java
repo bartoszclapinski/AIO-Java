@@ -12,7 +12,7 @@ public class World {
         System.out.println(eve.getName() + " is " + eve.getHeight() + "cm tall");
 
         System.out.println("Average height of humans is: " + Human.avgHeight + "cm");
-        System.out.println(adam.avgHeight);
-        System.out.println(eve.avgHeight);
+        System.out.println(Human.avgHeight);
+        System.out.println(Human.avgHeight);
     }
 }

@@ -1,7 +1,5 @@
 package BigNumbers.Exercises;
 
-import BigNumbers.BigNumbers;
-
 import java.io.File;
 import java.math.BigInteger;
 import java.util.Scanner;

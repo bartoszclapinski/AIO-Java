@@ -11,6 +11,8 @@ public class CompetitionController {
 
     void run() {
         Competition competition = createCompetition();
+        fillParticipantsInfo(competition);
+        printCompetitionInfo(competition);
     }
 
     private Competition createCompetition() {

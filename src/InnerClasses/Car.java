@@ -41,11 +41,11 @@ public class Car {
     }
 
     public static class StaticEngine {
-        private String engineType;
+        
         private static final int FUEL_CONSUMPTION = 20;
 
         public StaticEngine(String engineType) {
-            this.engineType = engineType;
+            
         }
 
         // fuel field needs to be static

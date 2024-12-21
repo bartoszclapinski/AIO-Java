@@ -73,11 +73,12 @@ public class WrapperTypes {
         // Parsing from String to primitive type
         String string = "5";
         int primitiveInt4 = Integer.parseInt(string);
+        System.out.println(primitiveInt4);
 
         // Parsing from String to wrapper type
         String string2 = "5";
         Integer wrapperInt4 = Integer.valueOf(string2);
-
+        System.out.println(wrapperInt4);
 
 
 

@@ -10,6 +10,7 @@ public class Outer {
             public void innerMethod() {
                 x = 10;
                 System.out.println(localVar); // localVar must be final or effectively final
+                System.out.println(Outer.this.x);
             }
         }
 

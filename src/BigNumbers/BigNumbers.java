@@ -7,6 +7,7 @@ public class BigNumbers {
     public static void main(String[] args) {
 
         long x = 1234567890123456789L;
+        System.out.println(x);
         //long y = 1234567890123456789123421L;
 
         double y = 0.7;
@@ -26,9 +27,12 @@ public class BigNumbers {
         System.out.println(result); // 1234567890124690258013310
         result = a.subtract(b);
         System.out.println(result); // -1234567890122203320239522
+        
         BigInteger c = BigInteger.valueOf(1234567890123456789L); // long
         BigInteger one = BigInteger.ONE;
         BigInteger zero = BigInteger.ZERO;
+        System.out.println(c + " " + one + " " + zero);
+
 
         double pow = Math.pow(2, 3);// 2^3 = 8
         double sqrt = Math.sqrt(9);// 3
@@ -41,8 +45,9 @@ public class BigNumbers {
         double random = Math.random();// 0.0 <= x < 1.0
         double pi = Math.PI;// 3.141592653589793
         double e = Math.E;// 2.718281828459045
-        double sin = Math.sin(0);// 0.0
-
+        double sin = Math.sin(0);
+        System.out.println(pow + " " + sqrt + " " + abs + " " + max + " " + min + " " + round + " " + floor + " " + ceil + " " + random + " " + pi + " " + e + " " + sin);
+        
 
     }
 }

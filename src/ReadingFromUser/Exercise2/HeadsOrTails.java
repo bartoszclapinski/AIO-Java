@@ -16,5 +16,6 @@ public class HeadsOrTails {
         } else {
             System.out.println("You lost!");
         }
+        sc.close();
     }
 }
